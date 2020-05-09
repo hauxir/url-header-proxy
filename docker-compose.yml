@@ -1,0 +1,6 @@
+url-header-proxy:
+  ports:
+      - "5000:5000"
+  build: .
+  volumes:
+    - ./app:/app
